@@ -1,0 +1,10 @@
+.input-data {
+  .input-data__btn {
+    &.active-long {
+      background: green;
+    }
+    &.active-short {
+      background: red;
+    }
+  }
+}

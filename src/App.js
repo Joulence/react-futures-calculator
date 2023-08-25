@@ -1,20 +1,15 @@
+import { Fragment } from "react";
+import Header from "./components/Layout/Header";
+import InputData from "./components/InputData";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <Header />
+      <main>
+        <InputData />
+      </main>
+    </Fragment>
   );
 }
 
