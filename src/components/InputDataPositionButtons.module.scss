@@ -1,0 +1,29 @@
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 70px;
+
+  &-btn {
+    padding: 10px 20%;
+    border: none;
+    background: transparent;
+    color: #5b5e6d;
+    cursor: pointer;
+    font-size: 16px;
+    &:hover {
+      background: #fff;
+    }
+    &.active-long {
+      background: rgb(14, 203, 129);
+    }
+    &.active-short {
+      background: rgb(246, 70, 93);
+    }
+    &.active-short,
+    &.active-long {
+      color: #fff;
+    }
+  }
+}
